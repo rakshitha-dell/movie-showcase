@@ -1,0 +1,60 @@
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f7f7f7;
+  color: #222;
+  justify-content: center;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background-color: #222;
+  padding: 20px 40px;
+  color: white;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #ddd;
+}
+
+/* Sections */
+.section {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Movie Cards */
+.card {
+  background: #fafafa;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-left: 5px solid #444;
+  border-radius: 6px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #111;
+}
+
+.card p {
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  margin-top: 40px;
+}
